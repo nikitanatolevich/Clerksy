@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'noto_sansregular';
+    src: url('../fonts/notosans-regular-webfont.eot');
+    src: url('../fonts/notosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/notosans-regular-webfont.woff2') format('woff2'),
+    url('../fonts/notosans-regular-webfont.woff') format('woff'),
+    url('../fonts/notosans-regular-webfont.ttf') format('truetype'),
+    url('../fonts/notosans-regular-webfont.svg#noto_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'recoletaregular';
+    src: url('../fonts/recoleta-regular-webfont.eot');
+    src: url('../fonts/recoleta-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/recoleta-regular-webfont.woff2') format('woff2'),
+    url('../fonts/recoleta-regular-webfont.woff') format('woff'),
+    url('../fonts/recoleta-regular-webfont.ttf') format('truetype'),
+    url('../fonts/recoleta-regular-webfont.svg#recoletaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #163A24;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container{
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 437px;
+}
+.container a img{
+    display: flex;
+}
+header div ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    align-items: center;
+}
+header nav li:nth-child(2){
+    padding-left: 24px;
+    padding-right: 24px;
+ }
+header nav li:first-of-type{
+    padding-left: 239px;
+}
+header nav li a{
+    color: #FBFAF7;
+    text-align: justify;
+    font-family: "noto_sansregular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+header nav li:last-of-type{
+    border-radius: 160px;
+    background: #198C36;
+}
+.button{
+    padding: 15px 25px;
+    }
+main section{
+    background: #163A24;
+    padding-top: 120px;
+    padding-bottom: 130px;
+}
+.div{
+    margin: auto;
+    display: flex;
+    background-image: url("../images/Frame.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    justify-content: space-between;
+}
+h1{
+    max-width: 391px;
+    color: #FBFAF7;
+    font-family: recoletaregular;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65.25px; /* 135.938% */
+    }
+
+main span{
+    color: #FBFAF7;
+    font-family: "noto_sansregular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+}
+section article{
+    max-width: 440px;
+    padding-right: 16.656px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18px;
+}
