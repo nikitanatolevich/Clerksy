@@ -114,4 +114,5 @@ section article{
 .ulli{
     margin: auto;
     max-width: 100%;
+    justify-content: space-between;
 }
