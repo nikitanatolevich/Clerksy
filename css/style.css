@@ -111,3 +111,7 @@ section article{
     align-items: flex-start;
     gap: 18px;
 }
+.ulli{
+    margin: auto;
+    max-width: 100%;
+}
