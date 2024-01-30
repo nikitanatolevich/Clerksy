@@ -191,4 +191,38 @@ main section article span{
     padding-right: 100px;
     padding-left: 100px;
 }
+.models{
+    background: #F2EFE6;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.models article:first-of-type{
+    display: flex;
+    margin: auto;
+    max-width: 786.656px;
+    padding: 0px 13.313px 16.875px 13.344px;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+}
+.models article:first-of-type h2{
+    color: #163A24;
+    text-align: center;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px; /* 112.5% */
+}
+.models article:first-of-type span{
+    color: #163A24;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+}
+.models article:last-of-type{
 
+}
