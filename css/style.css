@@ -124,6 +124,39 @@ main section article span{
     font-weight: 400;
     line-height: 27px; /* 150% */
 }
+.put{
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
+    justify-content: space-around;
+}
+.put article div, .parts article{
+    max-width: 380px;
+}
+.put article h3, .parts article h3{
+    font-family: recoletaregular;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.125;
+    color: #163a24;
+    padding-bottom: 27px;
+}
+.put article p, .parts article p{
+    font-family: "noto_sansregular";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #163a24;
+}
+.parts{
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .partners{
     padding-bottom: 120px;
 }
