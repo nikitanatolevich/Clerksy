@@ -140,7 +140,7 @@ main section article span{
 .excerpt h3{
     color: #163A24;
     text-align: center;
-    font-family: Recoleta;
+    font-family: recoletaregular;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -163,7 +163,7 @@ main section article span{
 .hr h3{
     color: #FBFAF7;
     text-align: center;
-    font-family: Recoleta;
+    font-family: recoletaregular;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -179,7 +179,7 @@ main section article span{
 .hr article p{
     color: #FBFAF7;
     text-align: center;
-    font-family: "Noto Sans";
+    font-family: "noto_sansregular";
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -208,7 +208,7 @@ main section article span{
 .models article:first-of-type h2{
     color: #163A24;
     text-align: center;
-    font-family: Recoleta;
+    font-family: recoletaregular;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -217,12 +217,9 @@ main section article span{
 .models article:first-of-type span{
     color: #163A24;
     text-align: center;
-    font-family: "Noto Sans";
+    font-family: "noto_sansregular";
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 27px; /* 150% */
-}
-.models article:last-of-type{
-
 }
