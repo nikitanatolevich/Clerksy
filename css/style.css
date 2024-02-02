@@ -270,12 +270,17 @@ main section article span{
     margin: auto;
     text-align: center;
 }
+.interest article:first-of-type{
+    padding-bottom: 18px;
+}
 .interest article span{
     padding-top: 26px;
     padding-bottom: 18px;
 }
+.aside{
+    padding-bottom: 120px;
+}
 .shield{
-    max-width: 353px;
     padding-top: 60px;
     padding-bottom: 66px;
     border-radius: 15px;
@@ -283,6 +288,27 @@ main section article span{
     background: rgb(251, 250, 247);
     display: inline-flex;
     flex-direction: column;
+    align-items: center;
+}
+.shield:nth-child(2){
+    margin-left: 40px;
+    margin-right: 40px;
+}
 
+.aside .shield h4{
+    font-family: recoletaregular;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.125;
+    color: #163a24;
+    text-align: left;
+    padding-bottom: 23px;
+}
+.aside .shield li{
+    font-family: "noto_sansregular";
+    font-weight: 400;
+    font-size: 16px;
+    color: #163a24;
+    text-align: left;
 }
 
