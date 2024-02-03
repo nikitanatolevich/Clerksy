@@ -269,7 +269,6 @@ main section article span{
     max-width: 1180px;
     margin: auto;
     text-align: center;
-
 }
 .interest article:first-of-type, .easy{
     padding-bottom: 18px;
@@ -287,8 +286,6 @@ main section article span{
     box-shadow: 5px 5px 20px 0px rgb(233, 228, 213);
     background: rgb(251, 250, 247);
     display: inline-block;
-
-
 }
 .shield:nth-child(2){
     margin-left: 40px;
