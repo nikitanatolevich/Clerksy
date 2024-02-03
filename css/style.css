@@ -135,7 +135,7 @@ main section article span{
 .put article div, .parts article, .fit article{
     max-width: 380px;
 }
-.put article h3, .parts article h3, .fit article h3, .interest article h3{
+.put article h3, .parts article h3, .fit article h3, .interest article h3, .models article h3{
     font-family: recoletaregular;
     font-weight: 600;
     font-size: 48px;
@@ -143,7 +143,7 @@ main section article span{
     color: #163a24;
     padding-bottom: 27px;
 }
-.put article p, .parts article p, .fit article p, .interest article span{
+.put article p, .parts article p, .fit article p, .interest article span, .models article span, .about p{
     font-family: "noto_sansregular";
     font-weight: 400;
     font-size: 18px;
@@ -229,7 +229,7 @@ main section article span{
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.models article:first-of-type{
+.models .casting{
     display: flex;
     margin: auto;
     max-width: 786.656px;
@@ -238,7 +238,7 @@ main section article span{
     align-items: center;
     gap: 27px;
 }
-.models article:first-of-type h2{
+.models .casting h2{
     color: #163A24;
     text-align: center;
     font-family: recoletaregular;
@@ -247,7 +247,7 @@ main section article span{
     font-weight: 600;
     line-height: 54px; /* 112.5% */
 }
-.models article:first-of-type span{
+.models .casting span{
     color: #163A24;
     text-align: center;
     font-family: "noto_sansregular";
@@ -279,13 +279,15 @@ main section article span{
 }
 .aside{
     padding-bottom: 120px;
-    justify-content: space-around;
+    align-items: flex-start;
+    display: inline-flex;
 }
 .shield{
+    max-width: 353px;
     border-radius: 15px;
     box-shadow: 5px 5px 20px 0px rgb(233, 228, 213);
     background: rgb(251, 250, 247);
-    display: inline-block;
+
 }
 .shield:nth-child(2){
     margin-left: 40px;
@@ -308,4 +310,45 @@ main section article span{
     color: #163a24;
     text-align: left;
 }
+.easy{
+    max-width: 1180px;
+    padding-bottom: 18px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+}
+.about{
+    display: inline-block;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+.about h4{
+    font-family: recoletaregular;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.125;
+    text-align: center;
+    color: #163a24;
+}
+.interest div a, .fit article a{
+    border-radius: 160px;
+    background: rgb(25, 140, 54);
+    color: rgb(251, 250, 247);
+    font-family: "noto_sansregular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+.about:first-of-type, .about:nth-child(2){
+    padding-right: 130px;
+}
+.simple{
+    padding-bottom: 20px;
+}
+
 
