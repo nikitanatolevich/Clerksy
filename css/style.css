@@ -269,8 +269,9 @@ main section article span{
     max-width: 1180px;
     margin: auto;
     text-align: center;
+
 }
-.interest article:first-of-type{
+.interest article:first-of-type, .easy{
     padding-bottom: 18px;
 }
 .interest article span{
@@ -279,16 +280,15 @@ main section article span{
 }
 .aside{
     padding-bottom: 120px;
+    justify-content: space-around;
 }
 .shield{
-    padding-top: 60px;
-    padding-bottom: 66px;
     border-radius: 15px;
     box-shadow: 5px 5px 20px 0px rgb(233, 228, 213);
     background: rgb(251, 250, 247);
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
+    display: inline-block;
+
+
 }
 .shield:nth-child(2){
     margin-left: 40px;
