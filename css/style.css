@@ -323,6 +323,7 @@ main section article span{
     display: inline-block;
     padding-top: 23px;
     padding-bottom: 23px;
+    position: relative;
 }
 .about h4{
     font-family: recoletaregular;
@@ -346,6 +347,19 @@ main section article span{
 }
 .about:first-of-type, .about:nth-child(2){
     padding-right: 130px;
+}
+.about .arrow::after{
+    position: absolute;
+    content: url("../images/Vector1.svg");
+}
+.vector{
+    background-image: url("../images/Vector.svg");
+    width: 285px;
+    height: 179px;
+    box-sizing: border-box;
+    background-size: contain;
+    padding-top: 36px;
+    background-repeat: no-repeat;
 }
 .simple{
     padding-bottom: 34px;
@@ -384,7 +398,6 @@ main section article span{
     font-size: 16px;
     font-weight: 600;
     line-height: 22px;
-    letter-spacing: 0%;
     text-align: center;
     padding: 15px 25px;
     text-decoration: none;
