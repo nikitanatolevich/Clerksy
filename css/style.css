@@ -86,7 +86,7 @@ header nav li:last-of-type {
 .background{
     background: #163A24;
 }
-.page {
+.page{
     max-width: 1180px;
     margin: auto;
     display: flex;
@@ -348,7 +348,51 @@ main section article span{
     padding-right: 130px;
 }
 .simple{
-    padding-bottom: 20px;
+    padding-bottom: 34px;
+}
+.started{
+    max-width: 1180px;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+.started h3{
+    font-family: recoletaregular;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.125;
+    color: #fbfaf7;
+}
+.started span{
+    font-family: "noto_sansregular";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fbfaf7;
+    text-align: center;
+    padding-bottom: 33px;
+    padding-top: 27px;
+    display: block;
+}
+.started a{
+    border-radius: 160px;
+    background: rgb(250, 181, 160);
+    color: rgb(22, 58, 36);
+    font-family: "noto_sansregular";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+.image{
+    background-image: url("../images/leaves.svg"), url("../images/leaf.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, right bottom;
 }
 
 
