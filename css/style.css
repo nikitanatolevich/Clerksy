@@ -143,7 +143,7 @@ main section article span{
     color: #163a24;
     padding-bottom: 27px;
 }
-.put article p, .parts article p, .fit article p, .interest article span, .models article span, .about p{
+.put article p, .parts article p, .fit article p, .interest article span, .models article span, .after_list p{
     font-family: "noto_sansregular";
     font-weight: 400;
     font-size: 18px;
@@ -287,13 +287,19 @@ main section article span{
     border-radius: 15px;
     box-shadow: 5px 5px 20px 0px rgb(233, 228, 213);
     background: rgb(251, 250, 247);
-
+    padding: 50px 66px 40px 20px;
 }
 .shield:nth-child(2){
     margin-left: 40px;
     margin-right: 40px;
 }
-
+.shield img{
+    padding-bottom: 20px;
+    padding-right: 190px;
+}
+.shield ul{
+    padding-left: 20px;
+}
 .aside .shield h4{
     font-family: recoletaregular;
     font-weight: 600;
@@ -319,13 +325,15 @@ main section article span{
     align-items: center;
     gap: 26px;
 }
-.about{
+.list{
+    position: relative;
+}
+.after_list{
     display: inline-block;
     padding-top: 23px;
     padding-bottom: 23px;
-    position: relative;
 }
-.about h4{
+.after_list h4{
     font-family: recoletaregular;
     font-weight: 600;
     font-size: 28px;
@@ -345,12 +353,20 @@ main section article span{
     text-decoration: none;
     padding: 15px 25px;
 }
-.about:first-of-type, .about:nth-child(2){
+.after_list:first-of-type, .after_list:nth-child(2){
     padding-right: 130px;
 }
-.about .arrow::after{
+.after_list1::after{
     position: absolute;
     content: url("../images/Vector1.svg");
+    top: 35%;
+    right: 65%;
+}
+.after_list2::after{
+    position: absolute;
+    content: url("../images/Vector1.svg");
+    top: 35%;
+    right: 33%;
 }
 .vector{
     background-image: url("../images/Vector.svg");
