@@ -14,7 +14,7 @@
     }
     .page{
         background-image: none;
-        padding: 0;
+        padding: 30px 10px;
     }
     .subtitle{
         padding: 0;
@@ -25,7 +25,7 @@
     .put{
         display: flex;
         flex-wrap: wrap;
-        padding-top: 60px;
+        padding: 30px 10px;
     }
     .put h3, .put p, .parts h3, .parts p, .fit p, .fit h3{
         text-align: center;
@@ -36,10 +36,11 @@
     .parts{
         display: flex;
         flex-wrap: wrap-reverse;
-        padding-bottom: 60px;
+        padding: 30px 10px;
     }
     .partners{
-        padding-bottom: 75px;
+        padding: 30px 10px;
+        margin-bottom: 80px;
     }
     .excerpt{
         padding: 0;
@@ -61,9 +62,13 @@
         width: 100%;
     }
     .hr .img {
-        padding-top: 37px;
         padding-left: 0;
+        padding-right: 0;
+        width: 117px;
+        height: 210px;
     }
+
+
     .models{
         padding-bottom: 60px;
         padding-top: 60px;
