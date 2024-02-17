@@ -1,6 +1,7 @@
 @media screen and (max-width: 428px) {
     .container{
         display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
         gap: 0;
     }
@@ -67,8 +68,6 @@
         width: 117px;
         height: 210px;
     }
-
-
     .models{
         padding-bottom: 60px;
         padding-top: 60px;
@@ -86,8 +85,8 @@
         padding-bottom: 60px;
     }
     .shield:nth-child(2){
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin: 40px 0;
+
     }
     .easy{
         text-align: center;
@@ -121,5 +120,9 @@
     }
     .image{
         background-size: cover;
+    }
+    header nav li:last-of-type{
+        border-radius: 0;
+        background: goldenrod;
     }
 }

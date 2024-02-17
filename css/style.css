@@ -28,13 +28,20 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    background: #163A24;
+}
+main{
+    background: white;
+}
 .wrapper {
     background: #163A24;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
+.cd-3d-nav-trigger{
+    display: none;
+}
 .container {
     max-width: 1180px;
     margin: auto;

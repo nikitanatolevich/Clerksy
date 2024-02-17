@@ -7,27 +7,68 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Clerksy</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile_menu.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-<header class="wrapper">
+
+
+<header class="cd-header wrapper">
     <div class="container">
-        <a href="#"><img src="images/logo.svg" alt="logo"></a>
-        <nav>
-            <ul>
-                <li>
+        <a href="#" class="cd-logo">
+            <img src="images/logo.svg" alt="logo">
+        </a>
+
+        <nav class="cd-3d-nav-container">
+            <ul class="cd-3d-nav">
+                <li class="cd-selected">
                     <a href="#">Log In</a>
                 </li>
+
                 <li>
-                    <a href="#">844-332-6440</a>
+                    <a href="#0">844-332-6440</a>
                 </li>
+
                 <li class="button">
-                    <a href="#"> Get Started</a>
+                    <a href="#0">Get Started</a>
                 </li>
-            </ul>
-        </nav>
+
+            </ul> <!-- .cd-3d-nav -->
+
+            <span class="cd-marker color-1"></span>
+        </nav> <!-- .cd-3d-nav-container -->
+
+
+        <a href="#0" class="cd-3d-nav-trigger">
+            Menu
+            <span></span>
+        </a>
     </div>
-</header>
+</header> <!-- .cd-header -->
+
+
+
+
+
+
+<!--<header class="wrapper">-->
+<!--    <div class="container">-->
+<!--        <a href="#"><img src="images/logo.svg" alt="logo"></a>-->
+<!--        <nav>-->
+<!--            <ul>-->
+<!--                <li>-->
+<!--                    <a href="#">Log In</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">844-332-6440</a>-->
+<!--                </li>-->
+<!--                <li class="button">-->
+<!--                    <a href="#"> Get Started</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </nav>-->
+<!--    </div>-->
+<!--</header>-->
 <main>
     <section class="background">
         <div class="wrapper page">
@@ -50,7 +91,7 @@
                 <h3>Put the human back in HR.</h3>
                 <p>Your employees are the real stars. Show the love and help them perform!</p>
             </div>
-        </article>  
+        </article>
     </section>
     <section class="parts">
         <article>
@@ -230,8 +271,12 @@
                 </a>
         </article>
     </section>
+
 </main>
 <footer>
 </footer>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
