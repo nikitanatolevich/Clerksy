@@ -39,9 +39,6 @@ main{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.cd-3d-nav-trigger{
-    display: none;
-}
 .container {
     max-width: 1180px;
     margin: auto;
@@ -92,6 +89,9 @@ header nav li:last-of-type {
 }
 .background{
     background: #163A24;
+}
+.cd-3d-nav-trigger{
+    display: none;
 }
 .page{
     max-width: 1180px;
@@ -430,5 +430,144 @@ main section article span{
     background-repeat: no-repeat, no-repeat;
     background-position: left bottom, right bottom;
 }
+.stay_up{
+    background: #F2EFE6;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.stay_up article{
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.stay_up article .date, .stay_up article .sign_up{
+    max-width: 590px;
+}
+.stay_up article .date h3{
+    font-family: recoletaregular;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 112%;
+    color: #163a24;
+    max-width: 342px;
+    padding-bottom: 26px;
+}
+.stay_up article .date p{
+    font-family: "noto_sansregular";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #163a24;
+    max-width: 299px;
+}
+.stay_up article .sign_up p{
+    font-family: "noto_sansregular";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #163a24;
+}
+.stay_up article .sign_up p a{
+    font-family: "noto_sansregular";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #198c36;
+    text-decoration: none;
+}
+form{
+    max-width: 590px;
+    background: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 11px;
+}
+form input{
+    width: 80%;
+    height: inherit;
+    border: none;
+    border-radius: 30px;
+}
+form button{
+    border-radius: 160px;
+    width: 111px;
+    height: 52px;
+    background: #15762e;
+    font-family: "noto_sansregular";
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fbfaf7;
+}
+.footer{
+    padding-top: 20px;
+    background-color: white;
+}
+.company{
+    padding-top: 23px;
+    padding-bottom: 23px;
+    align-items: center;
+}
+.footer .company{
+    position: relative;
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .company ul{
+    list-style-type: none;
+    display: flex;
+    align-items: end;
+}
+.footer .company p{
+    font-family: recoletaregular;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #163a24;
+}
+.footer .company ul li:last-of-type, .footer .company ul li:nth-child(2), .footer .company ul li:nth-child(3), .finish div ul a:last-of-type{
+    padding-left: 14px;
+}
+.finish{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.finish div{
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    border-top: #fbfaf7 solid 3px;
+}
+.finish div ul a{
+    text-decoration: none;
+    font-family: "noto_sansregular";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    color: #198c36;
+}
+.finish div ul{
+    list-style-type: none;
+    display: flex;
+}
+.finish div ul a:last-of-type{
+
+}
+
+
+
+
 
 
