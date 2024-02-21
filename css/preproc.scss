@@ -1,0 +1,145 @@
+$main_font: recoletaregular;
+$main-secondfont: "Noto Sans", sans-serif;
+$main_color: #FBFAF7;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
+
+@font-face {
+  font-family: 'recoletaregular';
+  src: url('../fonts/recoleta-regular-webfont.eot');
+  src: url('../fonts/recoleta-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/recoleta-regular-webfont.woff2') format('woff2'),
+  url('../fonts/recoleta-regular-webfont.woff') format('woff'),
+  url('../fonts/recoleta-regular-webfont.ttf') format('truetype'),
+  url('../fonts/recoleta-regular-webfont.svg#recoletaregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin display{
+  max-width: 1180px;
+  margin: auto;
+  display: flex;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #163A24;
+}
+header{
+    div {
+      .cd-3d-nav-trigger{
+        display: none;
+      }
+      nav {
+        ul {
+        display: flex;
+        justify-content: end;
+        list-style: none;
+        align-items: center;
+          li{
+            a {
+              color: $main_color;
+              text-align: justify;
+              font-family: $main-secondfont;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              text-decoration: none;
+            }
+            &:nth-child(2) {
+              padding-left: 24px;
+              padding-right: 24px;
+            }
+            &:first-of-type {
+              padding-left: 239px;
+            }
+            &:last-of-type {
+              border-radius: 160px;
+              background: #198C36;
+              .button {
+                padding: 15px 25px;
+              }
+            }
+          }
+        }
+      }
+    }
+}
+.background{
+  background: #163A24;
+}
+main{
+  background: $main_color;
+  .page{
+    @include display;
+    background-image: url("../images/Frame.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 130px;
+    .subtitle{
+      max-width: 440px;
+      display: inline-flex;
+      padding-right: 16.656px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 18px;
+      h1 {
+        max-width: 391px;
+        color: $main_color;
+        font-family: $main_font;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 65.25px; /* 135.938% */
+      }
+      span{
+        color: $main_color;
+        font-family: $main-secondfont;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px; /* 150% */
+      }
+    }
+  }
+  .put{
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
+    justify-content: space-around;
+    article div, .parts article, .fit article{
+      max-width: 380px;
+    }
+  }
+}
+
+
+
+
+
+.wrapper {
+  background: #163A24;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container {
+  @include display;
+  justify-content: center;
+  align-items: center;
+  gap: 437px;
+  a img {
+    display: flex;
+  }
+}

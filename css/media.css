@@ -125,4 +125,16 @@
         border-radius: 0;
         background: goldenrod;
     }
+    .stay_up article{
+        flex-wrap: wrap;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .stay_up article .date, .stay_up article .sign_up{
+        padding-bottom: 20px;
+    }
+    .footer .company{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
