@@ -36,9 +36,8 @@ header div nav ul {
     padding-left: 239px; }
   header div nav ul li:last-of-type {
     border-radius: 160px;
-    background: #198C36; }
-    header div nav ul li:last-of-type .button {
-      padding: 15px 25px; }
+    background: #198C36;
+    padding: 15px 25px; }
 
 .wrapper {
   background: #163A24;
@@ -375,6 +374,17 @@ main {
     background-image: url("../images/leaves.svg"), url("../images/leaf.svg");
     background-repeat: no-repeat, no-repeat;
     background-position: left bottom, right bottom; }
+  main .fit article a {
+    border-radius: 160px;
+    background: #198c36;
+    color: #fbfaf7;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 25px; }
   main .started {
     max-width: 1180px;
     margin: auto;
@@ -507,23 +517,24 @@ main {
       line-height: 150%;
       text-align: center;
       color: #163a24; }
-  .footer .finish {
-    background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px; }
-    .footer .finish div {
-      max-width: 1180px;
-      margin: auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding-bottom: 14px;
-      padding-top: 14px;
-      border-top: #fbfaf7 solid 3px; }
-      .footer .finish div ul ul {
-        list-style-type: none;
-        display: flex; }
-      .footer .finish div ul a {
+
+.finish {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .finish div {
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    border-top: #fbfaf7 solid 3px; }
+    .finish div ul {
+      list-style-type: none;
+      display: flex; }
+      .finish div ul a {
         text-decoration: none;
         font-family: "Noto Sans", sans-serif;
         font-weight: 400;
