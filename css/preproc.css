@@ -34,6 +34,26 @@ main {
   .container a img {
     display: flex; }
 
+@keyframes around {
+  0% {
+    left: 0;
+    top: 0; }
+  25% {
+    left: 240px;
+    top: 0; }
+  50% {
+    left: 240px;
+    top: 140px; }
+  75% {
+    left: 0;
+    top: 140px; }
+  100% {
+    left: 0;
+    top: 0; } }
+.cd-logo img {
+  animation: around 4s linear infinite;
+  position: relative; }
+
 header div ul {
   display: flex;
   justify-content: end;
@@ -537,13 +557,7 @@ main section article span {
       list-style-type: none;
       display: flex;
       align-items: end; }
-      .footer .company ul li:last-of-type {
-        padding-left: 14px; }
-      .footer .company ul li:nth-child(2) {
-        padding-left: 14px; }
-      .footer .company ul li:nth-child(3) {
-        padding-left: 14px; }
-      .footer .company ul li:last-of-type {
+      .footer .company ul li:last-of-type, .footer .company ul li:nth-child(2), .footer .company ul li:nth-child(3), .footer .company ul li:last-of-type {
         padding-left: 14px; }
     .footer .company p {
       font-family: recoletaregular;
@@ -576,5 +590,7 @@ main section article span {
         font-size: 14px;
         text-align: right;
         color: #198c36; }
+        .finish div ul a:last-of-type {
+          padding-left: 14px; }
 
 /*# sourceMappingURL=preproc.css.map */

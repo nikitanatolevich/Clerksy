@@ -73,6 +73,18 @@ main{
     display: flex;
   }
 }
+@keyframes around {
+  0%  { left: 0; top: 0; }
+  25% { left: 240px; top: 0; }
+  50% { left: 240px; top: 140px; }
+  75% { left: 0; top: 140px; }
+  100% { left: 0; top: 0; }
+}
+.cd-logo img{
+  animation: around 4s linear infinite;
+  position: relative;
+}
+
 header{
     div {
         ul {
@@ -568,16 +580,7 @@ main section article span{
       display: flex;
       align-items: end;
       li{
-        &:last-of-type{
-          padding-left: 14px;
-        }
-        &:nth-child(2){
-          padding-left: 14px;
-        }
-        &:nth-child(3){
-          padding-left: 14px;
-        }
-        &:last-of-type{
+        &:last-of-type, &:nth-child(2), &:nth-child(3), &:last-of-type{
           padding-left: 14px;
         }
       }
@@ -613,6 +616,9 @@ main section article span{
         font-size: 14px;
         text-align: right;
         color: #198c36;
+        &:last-of-type{
+          padding-left: 14px;
+        }
       }
     }
   }
