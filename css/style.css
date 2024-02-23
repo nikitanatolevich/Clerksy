@@ -39,6 +39,9 @@ main{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.cd-3d-nav-trigger{
+    display: none;
+}
 .container {
     max-width: 1180px;
     margin: auto;
@@ -89,9 +92,6 @@ header nav li:last-of-type {
 }
 .background{
     background: #163A24;
-}
-.cd-3d-nav-trigger{
-    display: none;
 }
 .page{
     max-width: 1180px;

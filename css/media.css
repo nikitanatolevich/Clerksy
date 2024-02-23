@@ -84,7 +84,7 @@
     .aside{
         padding-bottom: 60px;
     }
-    .shield:nth-child(2){
+    .aside .shield:nth-child(2){
         margin: 40px 0;
 
     }
@@ -125,6 +125,9 @@
         border-radius: 0;
         background: goldenrod;
     }
+    .stay_up{
+        padding-top: 100px;
+    }
     .stay_up article{
         flex-wrap: wrap;
         padding-left: 10px;
@@ -137,4 +140,17 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    .finish div {
+       flex-wrap: wrap;
+    }
+    .finish div p{
+        text-align: center;
+    }
+     .finish div ul a:last-of-type{
+         padding-right: 10px;
+    }
+    .finish div ul{
+        padding-top: 10px;
+    }
+
 }

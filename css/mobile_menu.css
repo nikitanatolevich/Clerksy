@@ -28,9 +28,10 @@
         transform: translateY(80px);
     }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 768px) {
     .cd-logo {
         float: left;
+    }
         .cd-3d-nav-trigger {
             position: relative;
             float: right;
@@ -144,8 +145,8 @@
             transition: transform 0.5s 0s, visibility 0.5s 0s;
         }
     }
-}
-@media screen and (max-width: 428px) {
+
+@media screen and (max-width: 768px) {
     .cd-3d-nav {
         /* this is the 3D rotating navigation */
         position: relative;
