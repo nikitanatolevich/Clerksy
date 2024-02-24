@@ -147,10 +147,12 @@
         text-align: center;
     }
      .finish div ul a:last-of-type{
-         padding-right: 10px;
+         padding: 5px;
     }
     .finish div ul{
         padding-top: 10px;
+        text-align: center;
+        align-items: center;
     }
 
 }
